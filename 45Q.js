@@ -1,83 +1,85 @@
 Basic Level
-What is JavaScript?
 
+1. What is JavaScript?
 A programming language that allows you to implement complex features on web pages, such as dynamic content, interactive forms, and animations.
-What are the different data types in JavaScript?
 
+2.What are the different data types in JavaScript?
 Primitive types: string, number, boolean, undefined, null, symbol, bigint.
 Non-primitive types: object (arrays, functions, etc.).
-What is the difference between undefined and null?
-
+    
+3.What is the difference between undefined and null?
 undefined means a variable has been declared but has not been assigned a value.
 null is an assignment value representing no value or no object.
-What is the difference between == and ===?
-
+    
+4.What is the difference between == and ===?
 == (Loose equality): Compares values with type coercion.
 === (Strict equality): Compares both value and type without coercion.
-What are variables in JavaScript? Explain var, let, and const.
-
+    
+5.What are variables in JavaScript? Explain var, let, and const.
 var: Function-scoped or globally-scoped, can be re-declared and updated.
 let: Block-scoped, can be updated but not re-declared.
 const: Block-scoped, cannot be updated or re-declared.
-What is a function in JavaScript?
-
+    
+6.What is a function in JavaScript?
 A block of reusable code that performs a specific task.
-What is an object in JavaScript?
-
+    
+7.What is an object in JavaScript?
 A collection of key-value pairs, where the keys are strings and values can be any data type (including functions).
-What is a for loop?
-
+    
+8.What is a for loop?
 A control flow statement that repeats a block of code a specified number of times.
-What is a while loop?
-
+    
+9.What is a while loop?
 A control flow statement that repeats a block of code as long as a specified condition is true.
-What is the difference between let and var?
-
+    
+10.What is the difference between let and var?
 let is block-scoped, var is function-scoped. let cannot be re-declared in the same block scope, while var can.
-What are JavaScript’s scope and lexical scope?
-
+    
+11.What are JavaScript’s scope and lexical scope?
 Scope refers to the region in code where a variable is accessible.
 Lexical scope means that a function’s scope is determined by its position in the source code.
-What are template literals in JavaScript?
-
+    
+12.What are template literals in JavaScript?
 Template literals are string literals allowing embedded expressions, and they support multi-line strings.
 javascript
 Copy code
 const name = 'John';
 console.log(`Hello, ${name}`);
-What is an array in JavaScript?
 
+13What is an array in JavaScript?
 An array is an ordered list of values indexed by numbers.
-What is a callback function?
 
+14.What is a callback function?
 A function passed as an argument to another function that is executed after the first function completes.
-What is an anonymous function?
 
+15.What is an anonymous function?
 A function defined without a name, typically used as a callback or argument.
+
+    
 Intermediate Level
-What is a closure?
 
+16.What is a closure?
 A closure is a function that retains access to its lexical scope even when the function is executed outside of that scope.
-What is the this keyword in JavaScript?
-
+    
+17.What is the this keyword in JavaScript?
 this refers to the object the function is currently executing in. It changes based on how a function is called.
-What is a promise?
-
+    
+18.What is a promise?
 A Promise is an object representing the eventual completion or failure of an asynchronous operation, providing .then(), .catch(), and .finally() methods to handle success or error.
-What is event delegation?
-
+    
+19.What is event delegation?
 Event delegation is the practice of attaching a single event listener to a parent element rather than multiple event listeners on child elements.
-What is the difference between null and undefined?
 
+20.What is the difference between null and undefined?
 null is an intentional absence of any value, whereas undefined indicates a variable has been declared but not assigned a value.
-What is the bind() method?
 
+21.What is the bind() method?
 The bind() method creates a new function with a specified this value and initial arguments, without invoking it immediately.
-What is the call() method?
 
+22.What is the call() method?
 The call() method invokes a function immediately with a specified this value and arguments passed individually.
-What is the apply() method?
 
+23.What is the apply() method?
 The apply() method is similar to call(), but the arguments are passed as an array.
 What is the event loop?
 
